@@ -1,7 +1,8 @@
-public class Imovel{
+public class Imovel {
 
     private String endereco;
     private double preco;
+
     public String getEndereco() {
         return endereco;
     }
@@ -14,6 +15,4 @@ public class Imovel{
     public void setPreco(double preco) {
         this.preco = preco;
     }
-
-    
 }

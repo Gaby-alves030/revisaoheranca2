@@ -1,13 +1,19 @@
 public class Principal {
     public static void main(String[] args) {
-        Novo imovelNovo=new Novo();
-        imovelNovo.setEndereco("Pompeia");
-        imovelNovo.setPreco(1000);
-        imovelNovo.setAdicional(200);
-        double imovelNovoValor=imovelNovo.getPreco()+imovelNovo.getAdicional();
+        
+        Imovel i = new Imovel();
+        Novo n = new Novo();
+        Velho v = new Velho();
 
-        System.out.println(imovelNovo.getEndereco());
-        System.out.println(imovelNovoValor);
+        i.setEndereco("Rua da Pamonha");
+        i.setPreco(150000);
+        n.setPrecoadicional(i.getPreco()+50000);
+        v.setPrecovelho(i.getPreco()-50000);
+
+        System.out.println("Endereco: "+i.getEndereco());
+        System.out.println("Preço: "+i.getPreco());
+        System.out.println("Preco adicional: "+n.getPrecoadicional());
+        System.out.println("Preco antigo: "+v.getPrecovelho());
+        
     }
-    
 }

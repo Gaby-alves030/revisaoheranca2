@@ -1,13 +1,10 @@
-public class Novo extends Imovel {
-    private double adicional;
+public class Novo extends Imovel{
+    private double precoadicional;
 
-    public double getAdicional() {
-        return adicional;
+    public double getPrecoadicional() {
+        return precoadicional;
     }
-
-
-    public void setAdicional(double adicional) {
-        this.adicional = adicional;
+    public void setPrecoadicional(double precoadicional) {
+        this.precoadicional = precoadicional;
     }
-    
 }

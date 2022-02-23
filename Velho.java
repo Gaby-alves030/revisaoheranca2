@@ -1,12 +1,13 @@
-public class Velho {
-    private double desconto;
+public class Velho extends Imovel{
 
-    public double getDesconto() {
-        return desconto;
+    private double precovelho;
+
+    public double getPrecovelho() {
+        return precovelho;
     }
 
-    public void setDesconto(double desconto) {
-        this.desconto = desconto;
+    public void setPrecovelho(double precovelho) {
+        this.precovelho = precovelho;
     }
 
     
